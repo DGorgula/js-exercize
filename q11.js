@@ -35,13 +35,11 @@ function greatestPicker(arr){
 }
 
 
-
 function main(a, b) {
     return greatestPicker(commonDivisors(a, b));
 }
-console.log(commonDivisors(-4, 3));
 
 
 a = prompt();
 b = prompt();
-alert("The greatest devisor is "+main(a, b));
+alert("The greatest devisor is " + main(a, b));
